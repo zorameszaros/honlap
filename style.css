@@ -1,0 +1,138 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/1f/91/b6/1f91b64f6b15d85ac21799b52803c055.gif');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+nav {
+    background-color: rgb(126, 90, 180);
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    margin: auto;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+    margin: 3px;
+}
+
+nav li:hover, .active {
+    background-color: white;
+
+}
+
+nav li:hover {
+    transform: translate(0, -6px);
+    box-shadow: 10px -10px 25px 0 rgb(255, 255, 255), -10px 10px 25px 0 rgba(107, 9, 227, 0.5);
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+nav ul {
+   
+        display: flex;
+        justify-content: center;
+        align-content: space-around;
+        margin: 0;
+}
+
+
+.content {
+    margin: auto;
+    width: 900px;
+    text-align: center;
+    background-color: rgba(107, 9, 227, 0.5);
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 50px;
+
+}
+
+.aboutButton {
+    border-radius: 28px;
+    text-shadow: 1px 1px 0px #8b57d4;
+    background:rgb(255, 255, 255);
+    display: inline-block;
+    width: 200px;
+    padding-top:20px;
+  	padding-bottom:20px;
+    cursor: pointer;
+}
+  
+.aboutButton:hover {
+    background: rgb(173, 109, 210);
+}
+
+.aboutButton a {
+    color:rgb(0, 0, 0);
+    font-weight:bold;
+    text-decoration: none;
+}
+
+
+
+.orarend th, .orarend td {
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(221, 213, 223);
+
+}
+
+.orarend {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
+}
+
+.orarend th {
+    background-color: rgb(196, 139, 223);
+}
+
+.svg {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.svg th {
+    background-color: rgb(255, 255, 255);
+}
+
+.github {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.github th {
+    background-color: lightgray;
+}
+
+
+.hazik {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.hazik th {
+    background-color: lightgray;
+}
